@@ -206,39 +206,6 @@ button:focus-visible {
   font-size: 14px;
 }
 
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 36px;
-  padding: 6px 16px;
-  color: var(--text);
-  font-size: 14px;
-  font-weight: 600;
-  background: #f6f8fa;
-  border: 1px solid rgba(31, 35, 40, 0.15);
-  border-radius: 6px;
-  box-shadow: 0 1px 0 rgba(31, 35, 40, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.25);
-}
-
-.button:hover {
-  color: var(--text);
-  background: #f3f4f6;
-  text-decoration: none;
-}
-
-.button-primary {
-  color: #ffffff;
-  background: var(--green);
-  border-color: rgba(31, 35, 40, 0.15);
-}
-
-.button-primary:hover {
-  color: #ffffff;
-  background: #116329;
-}
-
 .contact-list {
   display: grid;
   margin: 20px 0 0;
@@ -750,17 +717,12 @@ button:focus-visible {
   }
 
   .profile-intro,
-  .button,
   .contact-list {
     grid-column: 1 / -1;
   }
 
   .profile-intro {
     margin: 2px 0 0;
-  }
-
-  .button {
-    margin-top: 2px;
   }
 
   .contact-list {
