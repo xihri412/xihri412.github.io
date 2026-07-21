@@ -270,18 +270,12 @@ button:focus-visible {
   color: var(--text);
 }
 
-.focus-tags,
 .tech-list {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
 
-.focus-tags {
-  margin-top: 20px;
-}
-
-.focus-tags span,
 .tech-list span {
   display: inline-flex;
   align-items: center;
@@ -757,8 +751,7 @@ button:focus-visible {
 
   .profile-intro,
   .button,
-  .contact-list,
-  .focus-tags {
+  .contact-list {
     grid-column: 1 / -1;
   }
 
