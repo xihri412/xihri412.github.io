@@ -371,12 +371,14 @@ button:focus-visible {
 }
 
 .org-bytedance {
+  width: 100px;
+  flex-basis: 100px;
   background: #ffffff;
 }
 
 .org-bytedance img {
-  max-width: 42px;
-  max-height: 34px;
+  max-width: 88px;
+  max-height: 32px;
 }
 
 .org-palo-alto {
