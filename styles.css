@@ -371,16 +371,12 @@ button:focus-visible {
 }
 
 .org-bytedance {
-  color: #111111;
-  background:
-    linear-gradient(135deg, rgba(0, 197, 255, 0.16), rgba(255, 0, 85, 0.14)),
-    #ffffff;
+  background: #ffffff;
 }
 
-.org-bytedance span {
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: -0.04em;
+.org-bytedance img {
+  max-width: 42px;
+  max-height: 34px;
 }
 
 .org-palo-alto {
