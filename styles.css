@@ -370,17 +370,11 @@ button:focus-visible {
   max-height: 44px;
 }
 
-.org-bytedance {
-  width: 116px;
-  height: 60px;
-  flex-basis: 116px;
-  background: #ffffff;
-  border-radius: 12px;
-}
-
 .org-bytedance img {
-  max-width: 104px;
-  max-height: 30px;
+  width: 44px;
+  height: auto;
+  max-width: 44px;
+  max-height: 44px;
 }
 
 .org-palo-alto {
