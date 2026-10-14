@@ -604,6 +604,10 @@ button:focus-visible {
   font-weight: 600;
 }
 
+.paper-link + .paper-link {
+  margin-top: 8px;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
